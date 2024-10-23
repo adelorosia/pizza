@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&family=Salsa&family=Viga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply p-2 font-bold font-FONT_VIGA w-fit uppercase rounded-lg hover:text-PRIMARY_RED hover:bg-transparent cursor-pointer  border-2 border-SECONDARY_RED h-fit transition-all duration-300;
+  }
+
+  .btn-primary {
+    @apply bg-SECONDARY_RED  text-PRIMARY_WHITE;
+  }
+
+  .icon {
+    @apply w-6 h-6 hover:text-PRIMARY_RED;
+  }
